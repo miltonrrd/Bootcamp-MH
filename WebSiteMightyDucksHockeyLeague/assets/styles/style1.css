@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    background-color: black;
+    color: white;    
+    padding: 5px 0px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+nav{
+    margin-left: 15px;
+    margin-right: 80px;
+    display: inline-block;
+}
+
+ nav a{
+    display: block;
+    margin-bottom: 60px;
+}
+
+article{
+    margin-bottom: 25px;
+}
+article p {
+    text-indent: 15px;
+}
+
+section p {
+    margin-bottom: 30px;
+}
