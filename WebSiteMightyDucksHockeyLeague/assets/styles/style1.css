@@ -13,7 +13,6 @@ h1{
 header{
     height: 50vh;
     background-image:url("../images/design1_image1.jpg"); 
-   
     background-size: cover;
     background-repeat:no-repeat;
 }
@@ -44,6 +43,10 @@ nav{
     margin-bottom: 70%;
 }
 
+.seleccionado{
+    color: black;
+    text-decoration: none;
+}
 .contenido-main{
     position: relative;
     left: 20%;
