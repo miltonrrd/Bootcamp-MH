@@ -2,34 +2,60 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1{
+    font-size: 4.5em;
+    margin-left: 1%;
+}
+
+header{
+    height: 50vh;
+    background-image:url("../images/design1_image1.jpg"); 
+   
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+header>figure{
+    position: absolute;
+    left: 75%;
+    top: 42%;
 }
 
 h2{
     background-color: black;
     color: white;    
-    padding: 5px 0px;
+    padding: 0.5% 0px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 3.4%;
 }
 
 nav{
-    margin-left: 15px;
-    margin-right: 80px;
+    margin-left: 3%;
     display: inline-block;
+    position: absolute;
+    top:65%
 }
 
  nav a{
     display: block;
-    margin-bottom: 60px;
+    margin-bottom: 70%;
+}
+
+.contenido-main{
+    position: relative;
+    left: 20%;
 }
 
 article{
-    margin-bottom: 25px;
+    margin-bottom: 2%;
 }
 article p {
-    text-indent: 15px;
+    text-indent: 1.5em;
 }
 
 section p {
-    margin-bottom: 30px;
+    margin-bottom: 2%;
 }
