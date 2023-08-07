@@ -2,5 +2,70 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+header{
+    background-image: url("../images/design1_image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    margin-top: 7%;
+    border: 2px solid rgb(114, 111, 111);
+}
+
+h1{
+    position: absolute;
+    top: 0%;
+    margin-left: 1%;
+    font-size: 4.5em;
+    font-weight:normal;
+}
+
+nav{
+    width: 27%;
+    position: absolute;
+    right: 0%;
+    top:12%;
+}
+
+nav>a{
+    background-color: rgb(56, 79, 122);
+    text-decoration: none;
+    color: white;
+    padding: 1% 4%;
+    margin-right: 3%;
+    font-size: larger;
+    box-shadow: 4px 4px rgba(43, 42, 42, 0.562);
+}
+
+.seleccionado{
+    background-color: rgb(68, 131, 68);
+}
+h2{
+    border: 2px solid black;
+    text-align: center;
+    padding: 0.5% 0;
+}
+
+figure{
+    position: absolute;
+    top: 75%;
+    margin-left: 2%;
+}
+
+.contenido-main{
+    padding-left: 15%;
+    padding-right: 10%;
+    margin-top: 4%;
+}
+article{
+    margin-bottom: 4%;
+}
+
+article>p{
+    text-indent: 1%;
+}
+section p {
+    margin-bottom: 2%;
 }
