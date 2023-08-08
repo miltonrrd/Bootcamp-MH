@@ -12,6 +12,7 @@ header{
     height: 50vh;
     margin-top: 7%;
     border: 2px solid rgb(114, 111, 111);
+    border-bottom: none;
 }
 
 h1{
@@ -26,7 +27,7 @@ nav{
     width: 27%;
     position: absolute;
     right: 0%;
-    top:12%;
+    top:11%;
 }
 
 nav>a{
@@ -37,6 +38,7 @@ nav>a{
     margin-right: 3%;
     font-size: larger;
     box-shadow: 4px 4px rgba(43, 42, 42, 0.562);
+    border: 3px solid black;
 }
 
 .seleccionado{
@@ -46,6 +48,7 @@ h2{
     border: 2px solid black;
     text-align: center;
     padding: 0.5% 0;
+    margin-bottom: 3%;
 }
 
 figure{
@@ -55,9 +58,9 @@ figure{
 }
 
 .contenido-main{
-    padding-left: 15%;
-    padding-right: 10%;
-    margin-top: 4%;
+    width: 65%;
+    position: relative;
+    left: 20%;
 }
 article{
     margin-bottom: 4%;

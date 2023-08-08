@@ -16,7 +16,7 @@ header{
     background-image:url("../assets/images/design1_image1.jpg"); 
     background-size: cover;
     background-repeat:no-repeat;
-    background-position-y: 75%;
+    background-position-y:10%;
 }
 
 header>figure{
@@ -30,6 +30,7 @@ h2{
     color: white;    
     padding: 0.5% 0px;
     text-align: center;
+    margin-top: 0.3%;
     margin-bottom: 3.4%;
 }
 
@@ -43,6 +44,7 @@ nav{
  nav a{
     display: block;
     margin-bottom: 70%;
+    color:blue;
 }
 
 .seleccionado{
@@ -50,8 +52,9 @@ nav{
     text-decoration: none;
 }
 .contenido-main{
-   padding-left: 15%;
-   padding-right: 15%;
+    width: 65%;
+    position: relative;
+    left: 20%;
 }
 
 article{
