@@ -17,12 +17,11 @@ header{
     background-size: cover;
     background-repeat:no-repeat;
     background-position-y:10%;
+    display: flex;
 }
 
 header>figure{
-    position: absolute;
-    left: 75%;
-    top: 42%;
+  
 }
 
 h2{
@@ -37,8 +36,6 @@ h2{
 nav{
     margin-left: 3%;
     display: inline-block;
-    position: absolute;
-    top:65%
 }
 
  nav a{
@@ -53,8 +50,6 @@ nav{
 }
 .contenido-main{
     width: 65%;
-    position: relative;
-    left: 20%;
 }
 
 article{
