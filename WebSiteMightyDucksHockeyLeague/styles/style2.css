@@ -1,3 +1,5 @@
+/*Generales */
+
 * {
     padding: 0;
     margin: 0;
@@ -91,6 +93,14 @@ article>p{
     text-indent: 2%;
 }
 
+footer{
+    height: 5vh;
+    background-color: white;
+    border:1px solid black
+}
+
+/*Rules*/
+
 .lista{
     margin-left: 2rem;
 }
@@ -103,6 +113,13 @@ li{
 
 .lista-interna{
     list-style: lower-latin;
+}
+
+/*Games*/
+
+.p-rules{
+    font-weight:bold;
+    text-align: center;
 }
 .contenedor-contacto{
     display: flex;
@@ -140,9 +157,5 @@ th {
     text-align:center;
 }
 
-footer{
-    height: 5vh;
-    background-color: white;
-    border:1px solid black
-}
+
 
