@@ -5,11 +5,7 @@
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-h1{
-    font-size: 4.5em;
-    margin-left: 1%;
-    font-weight: normal;
-}
+
 
 header{
     height: 50vh;
@@ -18,12 +14,24 @@ header{
     background-repeat:no-repeat;
     background-position-y:10%;
     display: flex;
+    align-items: flex-start;
+}
+
+h1{
+    font-size: 4.5em;
+    margin-left: 1%;
+    font-weight: normal;
+
 }
 
 header>figure{
  align-self: flex-end;
  transform: translateY(4.3rem);
  z-index: 10;
+ width: 20%;
+}
+img{
+    width: 150px;
 }
 
 h2{
@@ -36,6 +44,7 @@ h2{
 nav{
     margin-left: 3%;
     height: 30vh;
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -62,7 +71,7 @@ section{
 
 
 .contenido-main{
-    align-self: center;
+    align-self:center;
     width: 65%;
     display: flex;
     flex-direction: column;
