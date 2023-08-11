@@ -41,7 +41,7 @@ nav{
     /* transform: translate(1vw, -16vh); */
     position: relative;
     bottom: 16.5vh;
-    width: 30vw;
+    width: 35vw;
     flex-wrap:wrap;
 }
 
@@ -52,7 +52,7 @@ nav>a {
     font-size:1rem;
     box-shadow: 4px 4px rgba(43, 42, 42, 0.562);
     border: 3px solid black;
-    padding: 1% 3%;
+    padding: 1% 2%;
 }
 
 figure {
@@ -75,9 +75,11 @@ h2 {
     margin-bottom: 3%;
 }
 
+
 section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .contenido-main {
@@ -155,6 +157,15 @@ th {
 }
 .fecha{
     text-align:center;
+}
+
+.locations{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+iframe{
+    width: 20vw;
 }
 
 
