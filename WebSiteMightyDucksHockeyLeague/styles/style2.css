@@ -68,6 +68,9 @@ img {
     background-color: rgb(68, 131, 68);
 }
 
+.columnas-centradas{
+    align-self: center;        
+}
 h2 {
     border: 2px solid black;
     text-align: center;
@@ -88,17 +91,24 @@ section {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin-bottom: 25vh;
 }
 
 article>p{
     text-indent: 2%;
 }
 
+main{
+    min-height: 30vw;
+    margin-bottom: 3%;
+}
+
 footer{
-    height: 5vh;
+    height: 7vh;
     background-color: white;
-    border:1px solid black
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Rules*/
@@ -161,17 +171,22 @@ th {
 
 .locations{
     display: flex;
+    justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .location:hover{
     border: 3px solid rgb(215, 218, 75);
     background-color:rgb(215, 218, 75);
-    
-
 }
+
 iframe{
-    width: 20vw;
+    width: 98%;
 }
 
 /*Register*/
@@ -197,4 +212,31 @@ fieldset{
     margin-top: 2rem;
 }
 
+/*Media queries*/
 
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    h1{
+        width: 100vw;
+        font-size: 2.3rem;
+        text-align: center;
+        transform: translateY(-8.2vw);
+    }
+    nav{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        transform: translate(12vw, 8vh);
+    }
+    a{
+        width: 100px;
+        text-align: center;
+    }
+    figure{
+        transform: translate(2vw, 14vh);
+    }
+    main{
+        min-height: 38vh;
+    }
+    .contenedor-horizontal{
+        flex-direction: column;
+    }
+}
