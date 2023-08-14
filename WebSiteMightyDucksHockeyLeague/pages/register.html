@@ -55,7 +55,7 @@
                                 <label for="Zip-code">Zip Code:
                                     <input type="text" name="Zip Code" id="Zip-code"></label>
                                 <div class="contenedor-horizontal">
-                                    <label for="">Gender:</label>
+                                    <label>Gender:</label>
                                     <label for="Female">Female
                                         <input type="radio" name="Gender" id="Female" value="Female" required></label>
                                     <label for="Male">Male
@@ -64,7 +64,7 @@
                             </div>
                         </div>
                         <div class="contenedor-horizontal">
-                            <label for="">Grade:</label>
+                            <label>Grade:</label>
                             <label for="Pre-School">
                                 <input type="radio" name="Grade" id="Pre-School" value="Pre-School" required>
                                 Pre-School</label>
@@ -89,34 +89,15 @@
                     <h3>Which elementary school do you live near?</h3>
                     <fieldset>
                         <legend>Closest School:</legend>
-                        <div class="contenedor-horizontal">
-                            <div class="contenedor-vertical">
-                                <label for="AJKatzenmaier">
-                                    <input type="radio" name="Closest School" id="AJKatzenmaier" value="AJ Katzenmaier" required>
-                                    AJ Katzenmaier</label>
-                                <label for="Greenbay">
-                                    <input type="radio" name="Closest School" id="Greenbay" value="Greenbay">
-                                    Greenbay</label>
-                                <label for="HowardAYeager">
-                                    <input type="radio" name="Closest School" id="HowardAYeager"
-                                        value="Howard A Yeager">
-                                    Howard A Yeager</label>
-                            </div>
-                            <div class="contenedor-vertical">
-                                <label for="MarjoriePHart">
-                                    <input type="radio" name="Closest School" id="MarjoriePHart"
-                                        value="Marjorie P Hart">
-                                    Marjorie P Hart</label>
-                                <label for="NorthElementary">
-                                    <input type="radio" name="Closest School" id="NorthElementary"
-                                        value="North Elementary">
-                                    North Elementary</label>
-                                <label for="SouthElementary">
-                                    <input type="radio" name="Closest School" id="SouthElementary"
-                                        value="South Elementary">
-                                    South Elementary</label>
-                            </div>
-                        </div>
+                        <select name="ClosestSchool" id="ClosestSchool" required>
+                            <option value="">Select School</option>
+                            <option value=" AJ Katzenmaier"> AJ Katzenmaier</option>
+                            <option value="Greenbay">Greenbay</option>
+                            <option value="Howard A Yeager">Howard A Yeager</option>
+                            <option value="Marjorie P Hart">Marjorie P Hart</option>
+                            <option value="North Elementary">North Elementary</option>
+                            <option value="South Elementary">South Elementary</option>
+                        </select>
                     </fieldset>
                     <h3>What position(s) do you normally play? (check all that apply)</h3>
                     <fieldset>
@@ -124,7 +105,7 @@
                         <div class="contenedor-horizontal">
                             <div class="contenedor-vertical">
                                 <label for="Foward">
-                                    <input type="checkbox" name="Position" id="Foward" value="Foward" required>
+                                    <input type="checkbox" name="Position" id="Foward" value="Foward">
                                     Foward</label>
                                 <label for="Defense">
                                     <input type="checkbox" name="Position" id="Defense" value="Defense">
