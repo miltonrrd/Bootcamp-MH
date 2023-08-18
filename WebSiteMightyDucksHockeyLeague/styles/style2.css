@@ -228,6 +228,7 @@ fieldset{
         width: 15vw;
         flex-direction: column;
         bottom: 8vh;
+        right: 1vw;
         
     }
     nav>a{
